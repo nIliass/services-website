@@ -16,8 +16,10 @@ export default function Reminders() {
                   className="relative w-12 h-14 border-r-2 border-r-[color:var(--color)] after:absolute after:top-[50%] after:left-1.5 after:-translate-y-[50%] after:rounded-full after:w-5 after:h-5 after:bg-[var(--color)]"
                   style={{ "--color": color }}
                 ></div>
-                <div className="flex-grow">
-                  <h3 className="font-bold mb-1.5">{title}</h3>
+                <div className="">
+                  <h3 className="font-bold text-sm sm:text-[1rem] mb-1.5">
+                    {title}
+                  </h3>
                   <p className="text-sm text-gray-500">{time}</p>
                 </div>
               </li>

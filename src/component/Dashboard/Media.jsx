@@ -16,9 +16,11 @@ export default function Media() {
                   <i className={icon}></i>
                 </div>
                 <div className="flex flex-grow justify-between items-center relative px-3 after:absolute after:left-0 after:w-full after:h-full after:bg-[var(--brand-color)] after:opacity-10 after:-z-10 isolate">
-                  <p className="text-[var(--brand-color)] text-md">{content}</p>
+                  <p className="text-sm sm:text-[1rem] text-[var(--brand-color)] text-md">
+                    {content}
+                  </p>
                   <button
-                    className="bg-[var(--brand-color)] text-white text-sm px-2 py-1
+                    className="text-sm sm:text-[1rem] bg-[var(--brand-color)] text-white px-2 py-1
                   rounded-md"
                   >
                     {btn}

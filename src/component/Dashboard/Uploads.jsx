@@ -21,8 +21,10 @@ export default function Uploads() {
               >
                 <img src={file} alt="file image" className="w-11" />
                 <div className="mr-auto">
-                  <h3 className="text-sm sm:text-md">{fileName}</h3>
-                  <p className="text-gray-400">{owner}</p>
+                  <h3 className="text-sm sm:text-[1rem]">{fileName}</h3>
+                  <p className="text-gray-400 text-sm sm:text-[1rem]">
+                    {owner}
+                  </p>
                 </div>
                 <p className="bg-gray-100 px-1.5 py-1 text-sm rounded-md">
                   {size}

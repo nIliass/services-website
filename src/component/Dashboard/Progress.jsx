@@ -23,7 +23,7 @@ export default function Progress() {
                         }`
                   }`}
                 ></div>
-                <p className="flex-grow">{phase}</p>
+                <p className="text-sm sm:text-[1rem]">{phase}</p>
               </li>
             );
           })}
