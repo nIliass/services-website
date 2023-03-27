@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .widget {
+    @apply bg-white rounded-lg pt-7 px-6 pb-7;
+  }
+  .btn {
+    @apply block w-[fit-content] text-white bg-blue-600 hover:bg-blue-700 transition text-sm rounded-md py-1 px-3 mt-5 ml-auto mr-4;
+  }
+  .input {
+    @apply bg-gray-200 rounded-md px-3 py-2 placeholder:text-sm outline-none placeholder:text-gray-700 placeholder:transition placeholder:duration-500 focus:placeholder:opacity-0;
+  }
+  .row {
+    @apply border-b-[1px] border-gray-100;
+  }
+  .cell {
+    @apply text-sm border-r-[1px] border-gray-100 p-3;
+  }
+}
