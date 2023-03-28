@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         open: "Open Sans, sans-serif",
+        awesome: "Font Awesome 6 Free",
       },
       boxShadow: {
         "3xl": "5px 0 10px 0",

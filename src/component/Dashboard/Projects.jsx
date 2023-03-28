@@ -5,7 +5,7 @@ import WidgetHeader from "./WidgetHeader";
 export default function Porjects() {
   const [data, setData] = useState(projectsData);
   return (
-    <div className="grid widget m-3 sm:m-6">
+    <div className="grid widget mt-3 sm:mt-6">
       <WidgetHeader title={"Projects"} style={"mb-5"} />
       <div className="overflow-x-auto">
         <table className="border-l-[1px] border-t-[1px] border-gray-100 w-full min-w-[1000px] text-left">

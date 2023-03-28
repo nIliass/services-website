@@ -1,6 +1,6 @@
 export default function Title({ children }) {
   return (
-    <div className={"pl-5 pt-4"}>
+    <div>
       <h1 className={"font-bold text-[2rem]"}>{children}</h1>
       <div
         className={
