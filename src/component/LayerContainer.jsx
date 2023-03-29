@@ -19,7 +19,7 @@ export default function LayerContainer({ children }) {
         >
           Elzero
         </h2>
-        <nav className={"grid gap-1.5"}>
+        <nav className={"grid gap-4 md:gap-1"}>
           {data &&
             data.map(({ title, icon }, idx) => {
               return (
@@ -27,7 +27,7 @@ export default function LayerContainer({ children }) {
                   <a
                     href="#"
                     className={
-                      "md:flex md:items-center md:gap-2.5 px-0.5 md:pl-3 md:pr-12 py-1 md:py-2.5 hover:bg-gray-100 rounded-md transition duration-300 duration-250"
+                      "md:flex md:items-center md:gap-2.5 px-2.5 md:pl-3 md:pr-12 py-1.5 md:py-2.5 hover:bg-gray-100 rounded-md transition duration-300 duration-250"
                     }
                   >
                     <i className={`${icon} text-sm`}></i>
