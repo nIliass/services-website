@@ -53,7 +53,7 @@ export default function News() {
                   </div>
                   <p
                     className={
-                      "text-sm font-blod bg-gray-100 w-[fit-content] mx-auto sm:mx-0 px-3 py-1.5 rounded-md"
+                      "small__container w-[fit-content] mx-auto sm:mx-0"
                     }
                   >
                     {getTimeAgo(time)}

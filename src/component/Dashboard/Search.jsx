@@ -17,9 +17,7 @@ export default function Search() {
             return (
               <li className={"flex justify-between items-center"} key={idx}>
                 <h4>{keyword}</h4>
-                <p className="bg-gray-100 px-1.5 py-1 text-sm rounded-md">
-                  {count}
-                </p>
+                <p className="small__container">{count}</p>
               </li>
             );
           })}

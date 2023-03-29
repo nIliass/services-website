@@ -9,6 +9,9 @@
   .btn {
     @apply block w-[fit-content] text-white bg-blue-600 hover:bg-blue-700 transition text-sm rounded-md py-1 px-3 mt-5 ml-auto mr-4;
   }
+  .small__container {
+    @apply bg-gray-100 px-2.5 py-1 text-sm rounded-md;
+  }
   .input {
     @apply bg-gray-200 rounded-md px-3 py-2 placeholder:text-sm outline-none placeholder:text-gray-700 placeholder:transition placeholder:duration-500 focus:placeholder:opacity-0;
   }
