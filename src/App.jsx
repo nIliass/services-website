@@ -12,7 +12,7 @@ import Plans from "./component/Plans/Plans";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<LayerContainer />}>
+      <Route path="/services-website" element={<LayerContainer />}>
         <Route index element={<Dashboard />} />
         <Route path="settings" element={<Settings />} />
         <Route path="profile" element={<Profile />} />

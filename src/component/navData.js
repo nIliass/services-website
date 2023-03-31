@@ -2,7 +2,7 @@ const navData = [
   {
     title: "Dashboard",
     icon: "fa-regular fa-chart-bar fa-fw",
-    path: "/",
+    path: "dashboard",
   },
   {
     title: "Settings",
