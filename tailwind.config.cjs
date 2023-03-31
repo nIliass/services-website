@@ -22,9 +22,14 @@ module.exports = {
           "0%": { opacity: "1" },
           "100%": { opacity: "0" },
         },
+        upDown: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-25%)" },
+        },
       },
       animation: {
         changeColor: "changeColor 0.8s linear alternate infinite",
+        upDown: "upDown 0.8s linear alternate infinite",
       },
     },
   },
