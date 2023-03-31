@@ -2,7 +2,7 @@ import { useState } from "react";
 import { projectsData } from "./Data";
 import WidgetHeader from "./WidgetHeader";
 
-export default function Porjects() {
+export default function Projects() {
   const [data, setData] = useState(projectsData);
   return (
     <div className="grid widget mt-3 sm:mt-6">

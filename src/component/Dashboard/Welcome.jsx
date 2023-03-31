@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { welcomData } from "./Data";
 
@@ -40,14 +41,14 @@ export default function Welcome() {
               );
             })}
         </ul>
-        <a
-          href=""
+        <Link
+          to="profile"
           className={
             "block w-[fit-content] text-white bg-blue-600 hover:bg-blue-700 transition text-sm rounded-md py-1 px-3 mt-5 ml-auto mr-4"
           }
         >
           Profile
-        </a>
+        </Link>
       </div>
     </div>
   );
